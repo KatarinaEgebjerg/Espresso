@@ -15,4 +15,9 @@ $utilities-colors: map-merge($utilities-colors, $theme-colors-rgb);
 $utilities-text-colors: map-loop($utilities-colors, rgba-css-var, "$key", "text");
 $utilities-bg-colors: map-loop($utilities-colors, rgba-css-var, "$key", "bg");
 
+$primary: #E1DED5;
+$secondary: #87B29E;
+$info: #6B8D7D;
+$dark: #504D42;
+
 @import "../node_modules/bootstrap/scss/bootstrap";
