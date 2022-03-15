@@ -32,12 +32,14 @@ img {
 	height: auto;
 }
 
+.nav-link:hover {
+	color: #6B8D7D;
+}
+
 .container{
 	background-color: #E1DED5;
 	display: flex;
 	justify-content: space-evenly;
-
-
 }
 
 .card{
@@ -64,7 +66,6 @@ img {
 
 .col-3{
 	display: flex;
-
 }
 
 
