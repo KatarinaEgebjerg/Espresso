@@ -34,20 +34,25 @@ img {
 
 .container{
 	background-color: #E1DED5;
-	padding: 2rem;
+	display: flex;
+	justify-content: space-evenly;
 
-}
 
-.card-body{
-	background-color: #87B29E;
-	color: white;
-}
-
-.card-title{
-	background-color: #87B29E;
-	color: white;
 }
 
 .card{
 	background-color: #87B29E;
+	color: white;
+	margin: 6rem;
+	padding: 2rem;
+	display: flex;
+	align-content: center;
+}
+
+#link{
+	color: white;
+}
+
+.col-2{
+	color: white;
 }
